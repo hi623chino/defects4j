@@ -1,0 +1,11 @@
+homepage: "https://github.com/hi623chino/defects4j"
+language: c
+primary_contact: "piroshiki0911@gmail.com"
+auto_ccs:
+
+sanitizers:
+  - address
+  - memory:
+     experimental: True
+  - undefined
+main_repo: 'https://github.com/hi623chino/defects4j/demo_code.c'
